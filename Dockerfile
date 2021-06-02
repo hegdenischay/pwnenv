@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-RUN apt update && apt upgrade
+RUN apt update && apt -y upgrade
 
 ARG DEBIAN_FRONTEND=noninteractive
 
